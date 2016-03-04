@@ -1,0 +1,11 @@
+/HW#1
+/HW#2
+/HW#3
+/HW#4
+*.aux
+*.log
+*.nav
+*.out
+*.snm
+*.synctex.gz
+*.toc

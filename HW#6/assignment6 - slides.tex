@@ -1,0 +1,61 @@
+\documentclass[14pt]{beamer}
+
+\mode<presentation>
+\usetheme[progressbar=frametitle]{metropolis}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{xspace}
+\usepackage{xepersian}
+
+\defbeamertemplate*{title page}{customized}[1][]
+{	
+	\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par
+	\raggedleft\usebeamerfont{title}\inserttitle\par
+	\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+	\bigskip
+	\usebeamerfont{author}\insertauthor\par
+	\usebeamerfont{institute}\insertinstitute\par
+	\usebeamerfont{date}\insertdate\par
+}	
+
+\title{یادداشت برداری و ابزار آن، انجام بخش عملی پژوهش و نوشتن نسخه اولیه گزارش}
+\subtitle{\color{brown} روش تحقیق و گزارش نویسی}
+\date{17 فروردین 1395}
+\author{سیاوش کاوسی}
+\institute{دانشگاه صنعتی امیرکبیر}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{logo}}
+
+\makeatletter
+\newcommand{\rtlist}{\raggedleft\rightskip\@totalleftmargin} 
+\makeatother
+\newcommand{\sectionfontsize}{\fontsize{22pt}{0pt}\selectfont}
+\newcommand{\framefontsizelarge}{\fontsize{18pt}{0pt}\selectfont}
+\newcommand{\frametitlefontsize}{\fontsize{20pt}{0pt}\selectfont}
+\newcommand{\defaultvspace}{\vspace{5mm}}
+
+% xepersian font settings 
+\settextfont{Adobe Arabic}\fontsize{12pt}{0pt}
+
+
+\begin{document}
+\begin{persian}
+	\maketitle
+	\everypar{\rightskip\rightmargin}		
+	
+	\section{\sectionfontsize یادداشت برداری و ابزار آن}	
+	
+	\begin{frame}{\frametitlefontsize یادداشت برداری}
+		\framefontsizelarge
+		تسهیل یادداشت برداری با کمک ساختار تهیه شده در زمان مطالعه منابع و نوشتن روی آنها \defaultvspace\\
+		انجام یادداشت برداری بر روی \textbf{فیش}\defaultvspace\\
+		فیش ها می توانند هر اندازه ای باشند  \textbf{اما} بهتر است اندازه  $15*10$ یا  $21*15$ سانتیمتر انتخاب شود که اولی برای یادداشت های کوتاه تر و دومی برای یادداشت های بلند تر
+	\end{frame}	
+	
+	\begin{frame}{\frametitlefontsize یادداشت برداری - ادامه}
+		\framefontsizelarge
+		عکس مربوطه!!!
+	\end{frame}	
+	
+\end{persian}
+\end{document}

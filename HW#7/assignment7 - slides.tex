@@ -1,0 +1,91 @@
+\documentclass[14pt]{beamer}
+
+\mode<presentation>
+\usetheme[progressbar=frametitle]{metropolis}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{xspace}
+\usepackage{xepersian}
+
+\defbeamertemplate*{title page}{customized}[1][]
+{	
+	\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par
+	\raggedleft\usebeamerfont{title}\inserttitle\par
+	\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+	\bigskip
+	\usebeamerfont{author}\insertauthor\par
+	\usebeamerfont{institute}\insertinstitute\par
+	\usebeamerfont{date}\insertdate\par
+}	
+
+\title{عناصر گزارش نوشتاری نهائی}
+\subtitle{\color{brown} روش تحقیق و گزارش نویسی}
+\date{17 فروردین 1395}
+\author{سیاوش کاوسی}
+\institute{دانشگاه صنعتی امیرکبیر}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{logo}}
+
+\makeatletter
+\newcommand{\rtlist}{\raggedleft\rightskip\@totalleftmargin} 
+\makeatother
+\newcommand{\sectionfontsize}{\fontsize{22pt}{0pt}\selectfont}
+\newcommand{\framefontsizelarge}{\fontsize{18pt}{0pt}\selectfont}
+\newcommand{\frametitlefontsize}{\fontsize{20pt}{0pt}\selectfont}
+\newcommand{\defaultvspace}{\vspace{5mm}}
+
+% xepersian font settings 
+\settextfont{Adobe Arabic}\fontsize{12pt}{0pt}
+
+
+\begin{document}
+\begin{persian}
+	\maketitle
+	\everypar{\rightskip\rightmargin}		
+	
+	\section{\sectionfontsize اجزاء معمول در گزارش های مهندسی}	
+	
+	\begin{frame}[allowframebreaks]{\frametitlefontsize اجزاء معمول در گزارش های مهندسی}
+		\framefontsizelarge
+		در انواع گزارش های مهندسی باید اجزائی در ابتدا و عناصری در انتهای گزارش اضافه شوند و در بدنه اصلی گزارش نیز ضوابط خاصی رعایت شوند
+		
+		\begin{itemize}\rtlist
+			\item جلد و شیرازه
+			\item صفحه عنوان
+			\item صفحات اهدا و تشکر
+			\item چکیده
+			\item فهرست مطالب
+			\item فهرست اشکال
+			\item فهرست جداول
+			\item بدنه اصلی گزارش
+			\item لبست مراجع
+			\item پیوست ها
+		\end{itemize}
+	\end{frame}	
+	
+	\begin{frame}[plain]{\frametitlefontsize  اجزاء معمول در گزارش های مهندسی - جلد و شیرازه}
+		\framefontsizelarge
+		وجود یک جلد خاوی اطلاعات مهم گزارش، گزارش را مورد توجه بیشتر و مقبولیت بالاتر قرار می دهد
+		
+		در گزارش هایی مانند پایان نامه های دانشگاهی مرسوم است که از جلدهای محکم مقوائی و صحافی استفاده شود
+		
+		اطلاعات روی جلد:
+		\begin{itemize}\rtlist
+			\item عنوان گزارش
+			\item موسسه ای که گزارش برای آن تهیه شده
+			\item نام کامل ارائه دهنده
+			\item موسسه محل اشتغال ارائه دهنده
+			\item شماره یا کد گزارش
+			\item تاریخ ارائه گزارش
+		\end{itemize}
+	\end{frame}	
+	
+	\begin{frame}[plain]{\frametitlefontsize  اجزاء معمول در گزارش های مهندسی - صفحه عنوان}
+		\framefontsizelarge
+		مرسوم است که پس از جلد یک صفحه سفید قرار داده شود و پس از آن در بعضی گزارشها اطلاهات روی جلد عینا در یک \textbf{صفحه عنوان} تکرار می گردد
+		
+		وجود صفجه عنوان در پایان نامه های دانشگاهی الزامی است
+	\end{frame}	
+	
+\end{persian}
+\end{document}

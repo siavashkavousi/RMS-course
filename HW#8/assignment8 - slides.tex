@@ -1,0 +1,97 @@
+\documentclass[14pt]{beamer}
+
+\mode<presentation>
+\usetheme[progressbar=frametitle]{metropolis}
+
+\usepackage{booktabs}
+\usepackage[scale=2]{ccicons}
+\usepackage{xspace}
+\usepackage{xepersian}
+
+\defbeamertemplate*{title page}{customized}[1][]
+{	
+	\usebeamercolor[fg]{titlegraphic}\inserttitlegraphic\par
+	\raggedleft\usebeamerfont{title}\inserttitle\par
+	\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par
+	\bigskip
+	\usebeamerfont{author}\insertauthor\par
+	\usebeamerfont{institute}\insertinstitute\par
+	\usebeamerfont{date}\insertdate\par
+}	
+
+\title{تولید گزارش نوشتاری نهائی}
+\subtitle{\color{brown} روش تحقیق و گزارش نویسی}
+\date{17 فروردین 1395}
+\author{سیاوش کاوسی}
+\institute{دانشگاه صنعتی امیرکبیر}
+\titlegraphic{\hfill\includegraphics[height=1.5cm]{logo}}
+
+\makeatletter
+\newcommand{\rtlist}{\raggedleft\rightskip\@totalleftmargin} 
+\makeatother
+\newcommand{\sectionfontsize}{\fontsize{22pt}{0pt}\selectfont}
+\newcommand{\framefontsizelarge}{\fontsize{18pt}{0pt}\selectfont}
+\newcommand{\frametitlefontsize}{\fontsize{20pt}{0pt}\selectfont}
+\newcommand{\defaultvspace}{\vspace{5mm}}
+
+% xepersian font settings 
+\settextfont{Adobe Arabic}\fontsize{12pt}{0pt}
+
+\begin{document}
+\begin{persian}
+	\maketitle
+	\everypar{\rightskip\rightmargin}		
+	
+	\begin{frame}[plain]{\frametitlefontsize تولید گزارش نوشتاری نهائی}
+		\framefontsizelarge
+		پیش نویس اولیه حتی در فرم اصلاح شده اش فاصله زیادی تا یک گزارش نوشتاری مطلوب دارد. اصلاحات محتوائی، ادبی و ساختاری زیادی باید بر روی پیش نویس اعمال شود تا گزارش به شکل مناسب در آید.
+	\end{frame}	
+	
+	\section{\sectionfontsize ایجاد اصلاحات ساختاری و محتوائی}	
+	
+	\begin{frame}[plain]{\frametitlefontsize ایجاد اصلاحات ساختاری و محتوائی - تنظیم ساختار هر بخش}
+		\framefontsizelarge
+		محتویات هر بخش باید به گونه ای اصلاح شود که ساختار آن به صورت زیر در آید:
+		\begin{itemize}\rtlist
+			\item پاراگراف مقدماتی هر بخش که مقدمه ای به بحث اصلی بخش می دهد
+			\item پاراگراف (های) مفاهیم مبنائی که تعاریف، مفاهیم و اصطلاحات مورد نیاز را در یک یا چند پاراگراف شرح می دهند
+			\item پاراگراف های اصلی
+			\item پاراگراف جمع بندی که مطالب را جمع بندی میکند و ورود به بخش بعد را تسهیل میکند
+		\end{itemize}
+	\end{frame}	
+	
+	\begin{frame}[plain]{\frametitlefontsize ایجاد اصلاحات ساختاری و محتوائی - تنظیم ساختار هر بخش}
+		\framefontsizelarge
+		محتویات هر بخش باید به گونه ای اصلاح شود که ساختار آن به صورت زیر در آید:
+		\begin{itemize}\rtlist
+			\item پاراگراف مقدماتی هر بخش که مقدمه ای به بحث اصلی بخش می دهد
+			\item پاراگراف (های) مفاهیم مبنائی که تعاریف، مفاهیم و اصطلاحات مورد نیاز را در یک یا چند پاراگراف شرح می دهند
+			\item پاراگراف های اصلی
+			\item پاراگراف جمع بندی که مطالب را جمع بندی میکند و ورود به بخش بعد را تسهیل میکند
+		\end{itemize}
+	\end{frame}	
+	
+	\begin{frame}[plain]{\frametitlefontsize ایجاد اصلاحات ساختاری و محتوائی - تنظیم ساختار هر بخش}
+		\framefontsizelarge
+		در پاراگراف های اصلی، هر کجا که مناسب باشد، ارائه مطالب به صورت لیستی از اقلام که با اعداد یا سمبل نشانه دار می شوند آورده شوند. این کار به درک سریع تر مطالب کمک زیادی می کند
+		
+		اگر اقلام ترتیب خاصی ندارند، بهتر است از علائم استفاده شود در غیر اینصورت اعداد توصیه می شوند
+		
+		اگر اقلام جمله ای کامل اند باید در انتهای آن نقطه ای گذاشت
+		
+		همچنین مطلوب است که توازی دستور زبانی برقرار باشد
+	\end{frame}	
+	
+	\begin{frame}[plain]{\frametitlefontsize ایجاد اصلاحات ساختاری و محتوائی - تنظیم ساختار هر بخش}
+		\framefontsizelarge
+		در اینجا بهتر است که پاراگراف تعریف شود
+		
+		یک پاراگراف حاوی یک ایده واحد و مشخص است
+		
+		ایده اصلی معمولا یا اولین و یا آخرین جمله است که در متون مهندسی بهتر است جمله اصلی اول بیان شود و سپس جزئیات بیاید
+		
+		اندازه متعارف پاراگراف 100 الی 150 کلمه است و توصیه می شود از 12 خط بیشتر نشود
+	\end{frame}	
+
+\end{persian}
+\end{document}

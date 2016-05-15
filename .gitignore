@@ -4,6 +4,7 @@
 /HW#4
 /Research Stuffs
 /Sample
+/Presentation/.idea
 *.aux
 *.log
 *.nav
@@ -11,3 +12,4 @@
 *.snm
 *.synctex.gz
 *.toc
+
